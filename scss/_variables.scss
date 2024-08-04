@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Chronicle";
+    src: url('/public/fonts/Chronicle\ Display\ Semibold.woff2');
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url('/public/fonts/Gilroy-Bold.woff2');
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url('/public/fonts/Gilroy-Extrabold.woff2');
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url('/public/fonts/Gilroy-Medium.woff2');
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --main-color: #0B1D26;
+    --main-second-color: #FBD784;
+    --main-font-color: #FFFFF;
+
+    --white-color: #F4F6F5;
+    
+    --transition: 0.2s;
+
+    --content-container: 165px;
+
+    --font-gilroy: "Gilroy";
+    --font-chronicle: "Chronicle";
+}
